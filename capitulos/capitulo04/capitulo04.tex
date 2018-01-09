@@ -91,11 +91,15 @@ Las reuniones de Scrum son importantes en su estructura y deben mantenerse. Se p
 
   \item \textit{Sprint Retrospective}. La reunión de revisión permite resolver diferentes conflictos de infraestructura o talento humano diferentes al desarrollo del product backlog. Hay que resolver todos los inconvenientes relativos al desarrollo de interfaces de usuario.
 
+  \item \textit{Sprint}. La iteración para este tipo de proyectos se propone sea de una semana únicamente debido a la alta variabilidad del \textit{product backlog}.
+
 \end{itemize}
 
 \subsubsection{Elementos de Scrum}
 
-El elemento más complicado de gestionar desde la metodología ágil son las historias de usuario. La gestión de historias se realiza usualmente describiento elementos de entrada salida que representan flujos de información y acciones del usuario frente a un sistema, siendo los más típicos aquellos en donde se debe interactuar con formularios. Sistemas diferentes a los formularios con componentes interactivos más complicados suelen complicar también la forma y la precisión con la que la historia de usuario queda descrita, haciendo más dificil su seguimiento. La incertidumbre acerca de su entendimiento y la separación entre lo escrito y su realidad son un grave problema que no solo se presenta a ete nivel de construcción sino también el el desarrollo de cualquier sistema de HCI. Autores como \cite{moreno2012agile}, describen las características que debería tener un \textit{product backlog} al momento de incluir detalles de usabilidad. Sin embargo, muchos de sus conceptos no pueden ser traídos a este contexto porque no existen los mismos componentes gráficos como botones, menús o cajas de selección. Existe la misma situación en el diseño de video juegos en los que diferentes autores también han desarrollado metodologías propias para diseñar y desarrollar sus productos. A pesar de todas las anteriores recomendaciones se propone seguir la misma estructura tradicional, extendiendo implementando las sugerencias de \cite{moreno2012agile} y descartando las consideraciones relativas a componentes de interfaz gráfica no usados.
+El elemento más complicado de gestionar desde la metodología ágil son las historias de usuario. La gestión de historias se realiza usualmente describiento elementos de entrada salida que representan flujos de información y acciones del usuario frente a un sistema, siendo los más típicos aquellos en donde se debe interactuar con formularios. Sistemas diferentes a los formularios con componentes interactivos más complicados suelen complicar también la forma y la precisión con la que la historia de usuario queda descrita, haciendo más dificil su seguimiento. La incertidumbre acerca de su entendimiento y la separación entre lo escrito y su realidad son un grave problema que no solo se presenta a ete nivel de construcción sino también el el desarrollo de cualquier sistema de HCI. Autores como \cite{moreno2012agile}, describen las características que debería tener un \textit{product backlog} al momento de incluir detalles de usabilidad.
+
+Sin embargo, muchos de sus conceptos no pueden ser traídos a este contexto porque no existen los mismos componentes gráficos como botones, menús o cajas de selección. Existe la misma situación en el diseño de video juegos en los que diferentes autores también han desarrollado metodologías propias para diseñar y desarrollar sus productos. A pesar de todas las anteriores recomendaciones se propone seguir la estructura tradicional, extendiendo e implementando las sugerencias de \cite{moreno2012agile} y descartando las consideraciones relativas a componentes de interfaz gráfica no usados.
 
 \begin{figure}[h]
 \label{togafarchimate}
@@ -103,3 +107,7 @@ El elemento más complicado de gestionar desde la metodología ágil son las his
 \includegraphics[scale=0.8]{togafarchimate}
 \caption{Correspondencia entre Archimate y TOGAF.}
 \end{figure}
+
+Las entregas de valor al final de cada ciclo se mantienen como prototipos alterables en el futuro. Tradicionalmente, las entregas de valor son inalterables luego de revisadas y aprobadas, siendo cambiadas en las correcciones de bugs y en su integración con otras historias de usuario. En este caso se propone que cada incremento potencial tenga el alcance necesario, incluso con la modificación total o parcial de historias previamente entregadas y validadas.
+
+El refinamiento de las historias de usuario debería tener dos etapas: 1) la documentación de nuevas ideas en el proceso regular de descubrimiento de nuevas ideas durante el proceso y, 2)la transformación de las historias de usuario recolectadas en nuevas historias con revisión y aprobación grupal.
